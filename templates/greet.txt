@@ -9,8 +9,4 @@
     <input type="text" name="name" required>
     <button type="submit">Submit</button>
 </form>
-
-{% if name %}
-    <p>Hello {{ name }} 👋</p>
-{% endif %}
 {% endblock %}

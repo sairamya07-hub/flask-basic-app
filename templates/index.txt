@@ -1,0 +1,8 @@
+<h1>Hello {{shanmukisairamya}}</h1>
+<a href="/greet">Go to Form</a>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<body>
+    <div class="container">
+        <!-- your existing code stays here -->
+    </div>
+</body>
